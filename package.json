@@ -71,7 +71,7 @@
         "@jupyterlab/nbformat": "^4.0.6",
         "@jupyterlab/rendermime": "^4.0.6",
         "@jupyterlab/services": "^7.0.6",
-        "@jupyterlab/settingregistry": "^4.0.6",
+        "@jupyterlab/settingregistry": "^4.4.9",
         "@jupyterlab/terminal": "^4.0.6",
         "@jupyterlab/translation": "^4.0.6",
         "@jupyterlab/ui-components": "^4.0.6",
