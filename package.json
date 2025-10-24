@@ -64,7 +64,7 @@
         "@jupyterlab/codeeditor": "^4.0.6",
         "@jupyterlab/codemirror": "^4.0.6",
         "@jupyterlab/console": "^4.0.6",
-        "@jupyterlab/coreutils": "^6.0.6",
+        "@jupyterlab/coreutils": "^6.4.9",
         "@jupyterlab/docregistry": "^4.0.6",
         "@jupyterlab/filebrowser": "^4.0.6",
         "@jupyterlab/mainmenu": "^4.0.6",

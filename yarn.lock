@@ -2515,6 +2515,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@jupyterlab/coreutils@npm:^6.4.9":
+  version: 6.4.10
+  resolution: "@jupyterlab/coreutils@npm:6.4.10"
+  dependencies:
+    "@lumino/coreutils": ^2.2.1
+    "@lumino/disposable": ^2.1.4
+    "@lumino/signaling": ^2.1.4
+    minimist: ~1.2.0
+    path-browserify: ^1.0.0
+    url-parse: ~1.5.4
+  checksum: 05cc138be6de738c7bd197c4903555bc3f1a2468eeb957aada0af8073ef91afebaf4aa4862e3c57a5cdf6e7bb9572ab7c661371f2ec13e840acc85312307b45f
+  languageName: node
+  linkType: hard
+
 "@jupyterlab/docmanager@npm:^4.0.6":
   version: 4.0.6
   resolution: "@jupyterlab/docmanager@npm:4.0.6"
@@ -2623,7 +2637,7 @@ __metadata:
     "@jupyterlab/codeeditor": ^4.0.6
     "@jupyterlab/codemirror": ^4.0.6
     "@jupyterlab/console": ^4.0.6
-    "@jupyterlab/coreutils": ^6.0.6
+    "@jupyterlab/coreutils": ^6.4.9
     "@jupyterlab/docregistry": ^4.0.6
     "@jupyterlab/filebrowser": ^4.0.6
     "@jupyterlab/mainmenu": ^4.0.6
@@ -3189,6 +3203,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@lumino/algorithm@npm:^2.0.3":
+  version: 2.0.3
+  resolution: "@lumino/algorithm@npm:2.0.3"
+  checksum: 03932cdc39d612a00579ee40bafb0b1d8bf5f8a12449f777a1ae7201843ddefb557bc3f9260aa6b9441d87bfc43e53cced854e71c4737de59e32cd00d4ac1394
+  languageName: node
+  linkType: hard
+
 "@lumino/application@npm:^2.2.1":
   version: 2.2.1
   resolution: "@lumino/application@npm:2.2.1"
@@ -3231,12 +3252,30 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@lumino/coreutils@npm:^2.2.1":
+  version: 2.2.1
+  resolution: "@lumino/coreutils@npm:2.2.1"
+  dependencies:
+    "@lumino/algorithm": ^2.0.3
+  checksum: d08570d1ebcf6bca973ba3af0836fb19a5a7a5b24979e90aab0fb4acb245e9619a0db356a78d67f618ae565435bb2aaf7c158c5bc0ae1ef9e9f1638ebfa05484
+  languageName: node
+  linkType: hard
+
 "@lumino/disposable@npm:^1.10.0 || ^2.0.0, @lumino/disposable@npm:^2.0.0, @lumino/disposable@npm:^2.1.2":
   version: 2.1.2
   resolution: "@lumino/disposable@npm:2.1.2"
   dependencies:
     "@lumino/signaling": "npm:^2.1.2"
   checksum: ac2fb2bf18d0b2939fda454f3db248a0ff6e8a77b401e586d1caa9293b3318f808b93a117c9c3ac27cd17aab545aea83b49108d099b9b2f5503ae2a012fbc6e2
+  languageName: node
+  linkType: hard
+
+"@lumino/disposable@npm:^2.1.4":
+  version: 2.1.4
+  resolution: "@lumino/disposable@npm:2.1.4"
+  dependencies:
+    "@lumino/signaling": ^2.1.4
+  checksum: 0274c1cd81683f0d37c79795ed683fe49929452e6f075b9027b62dee376b5c6aa5f27b279236c4e1621bcbdcb844d5be0bbde3a065ab39159deb995244d1d2a7
   languageName: node
   linkType: hard
 
@@ -3299,6 +3338,16 @@ __metadata:
     "@lumino/algorithm": "npm:^2.0.1"
     "@lumino/coreutils": "npm:^2.1.2"
   checksum: ad7d7153db57980da899c43e412e6130316ef30b231a70250e7af49058db16cadb018c1417a2ea8083d83c48623cfe6b705fa82bf10216b1a8949aed9f4aca4e
+  languageName: node
+  linkType: hard
+
+"@lumino/signaling@npm:^2.1.4":
+  version: 2.1.4
+  resolution: "@lumino/signaling@npm:2.1.4"
+  dependencies:
+    "@lumino/algorithm": ^2.0.3
+    "@lumino/coreutils": ^2.2.1
+  checksum: 554a5135c8742ed3f61a4923b1f26cb29b55447ca5939df70033449cfb654a37048d7a3e2fd0932497099cd24501a3819b85cd1fdf4e76023ba0af747c171d53
   languageName: node
   linkType: hard
 
@@ -6733,7 +6782,7 @@ __metadata:
 
 "fsevents@patch:fsevents@npm%3A^2.3.2#~builtin<compat/fsevents>":
   version: 2.3.3
-  resolution: "fsevents@patch:fsevents@npm%3A2.3.3#~builtin<compat/fsevents>::version=2.3.3&hash=df0bf1"
+  resolution: "fsevents@patch:fsevents@npm%3A2.3.3#~builtin<compat/fsevents>::version=2.3.3&hash=18f3a7"
   dependencies:
     node-gyp: "npm:latest"
   conditions: os=darwin
@@ -10437,7 +10486,7 @@ __metadata:
 
 "resolve@patch:resolve@npm%3A^1.10.0#~builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.14.2#~builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.19.0#~builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.20.0#~builtin<compat/resolve>":
   version: 1.22.6
-  resolution: "resolve@patch:resolve@npm%3A1.22.6#~builtin<compat/resolve>::version=1.22.6&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A1.22.6#~builtin<compat/resolve>::version=1.22.6&hash=07638b"
   dependencies:
     is-core-module: "npm:^2.13.0"
     path-parse: "npm:^1.0.7"
@@ -10450,7 +10499,7 @@ __metadata:
 
 "resolve@patch:resolve@npm%3A^2.0.0-next.4#~builtin<compat/resolve>":
   version: 2.0.0-next.4
-  resolution: "resolve@patch:resolve@npm%3A2.0.0-next.4#~builtin<compat/resolve>::version=2.0.0-next.4&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A2.0.0-next.4#~builtin<compat/resolve>::version=2.0.0-next.4&hash=07638b"
   dependencies:
     is-core-module: "npm:^2.9.0"
     path-parse: "npm:^1.0.7"
@@ -11719,11 +11768,11 @@ __metadata:
 
 "typescript@patch:typescript@~5.0.2#~builtin<compat/typescript>":
   version: 5.0.4
-  resolution: "typescript@patch:typescript@npm%3A5.0.4#~builtin<compat/typescript>::version=5.0.4&hash=85af82"
+  resolution: "typescript@patch:typescript@npm%3A5.0.4#~builtin<compat/typescript>::version=5.0.4&hash=701156"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: bb309d320c59a26565fb3793dba550576ab861018ff3fd1b7fccabbe46ae4a35546bc45f342c0a0b6f265c801ccdf64ffd68f548f117ceb7f0eac4b805cd52a9
+  checksum: 6a1fe9a77bb9c5176ead919cc4a1499ee63e46b4e05bf667079f11bf3a8f7887f135aa72460a4c3b016e6e6bb65a822cb8689a6d86cbfe92d22cc9f501f09213
   languageName: node
   linkType: hard
 
